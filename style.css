@@ -2,7 +2,9 @@
     margin:0;
     padding:0;
 }
-
+p , h2 ,.msg , button{
+    font-family:cursive;
+}
 body{
     display: flex;
     justify-content: center;
@@ -19,6 +21,7 @@ body{
     min-width: 40vh;
 }
 
+
 form {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -28,19 +31,35 @@ form select , button input{
    border: none;
    outline: none;
    border-radius:0.75rem;
+   border-color: #F1E3F3;
+}
+p{
+   margin:0.25rem; 
 }
 
-form input{
-    border:1px solid #B185A7;
+input{
+    border: none;
     font-size: 1.25rem;
     height: 3rem;
     padding-left: 0.5rem;
+    border-radius: 0.5rem;
 }
+
 .dropdown{
+    margin-top: 1rem;
     display: flex;
-    justify-content:space-between;
     align-items: center;
-    margin:1rem;
+   
+}
+.convertImg{
+    background-color: #F1E3F3;
+    border-radius: 10%;
+    padding: 0.3rem;
+    border: 2px solid transparent;
+
+}
+.convertImg:hover{
+        border-color:#7B2FBE;
 }
 
 .select-container img{
@@ -49,7 +68,35 @@ form input{
 }
 .select-container{
     display: flex;
-    height: 6rem;
+    align-items: center;
+}
+.from{
+    margin-right: 2rem;
+}
+.to{
+    margin-left: 2rem;
+}
+.msg{
+    color: #F1E3F3;
+    font-weight:bold;
+}
+.exchangeRate{
+flex-direction: column;
+    font-size: 1.25rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.exchangeRate button{
+    background-color: #F1E3F3;
+    font-size: 1rem;
+    border-radius: 5px;
+    border:2px solid transparent;
+    padding: 0.25rem;
+    margin-top: 0.5rem;
+}
+.exchangeRate button:hover{
+     border-color:#7B2FBE;
 }
 
 select{

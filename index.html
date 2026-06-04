@@ -11,9 +11,10 @@
     <div class="container">
         <h2> Currency Convertor</h2>
         <form>
-            <div class="amount" >
+            <div  class="amount" >
                 <p>Enter Amount</p>
                 <input value="100" type ="text"/>
+                </div>
                 <div class="dropdown">
                     <div class="from">
                         <p>Convert From</p>
@@ -25,7 +26,10 @@
                             </select>
                         </div>
                     </div>
-                     <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <div class="convertImg">
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    </div>
+                     
                     <div class="to">
                     <p>Convert To</p>
                         <div class="select-container">
@@ -36,9 +40,12 @@
                             </select>
                         </div>
                         </div>
-        </form>
+         </form>
     </div>
-   <div class ="msg"> 1USD=95INR </div>
-                <button> Get Exchange Rate</button>
+    <div class="exchangeRate">
+        <div class ="msg"> 1USD=95INR </div>
+        <button> Get Exchange Rate</button>
+    </div>
+   
 </body>
 </html>
