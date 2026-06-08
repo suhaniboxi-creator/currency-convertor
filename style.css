@@ -2,6 +2,68 @@
     margin:0;
     padding:0;
 }
+body.dark-mode {
+    background-color: #1a1025;
+}
+
+body.dark-mode .container {
+    background-color: #2d1b4e;
+}
+
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode label {
+    color: #f0e6ff;
+}
+
+body.dark-mode input,
+body.dark-mode select {
+    background-color: #3d2468;
+    color: #f0e6ff;
+    border-color: #BB71D8;
+}
+
+body.dark-mode button {
+    background-color: #3d2468;
+    color: #f0e6ff;
+    border-color: #BB71D8;
+}
+
+body.dark-mode .exchangeRate {
+    background-color: #2d1b4e;
+}
+
+body.dark-mode .msg {
+    color: #c084fc;
+}
+
+body.dark-mode .convertImg {
+    background-color: #3d2468;
+    color: #f0e6ff;
+}
+
+body.dark-mode #history p {
+    color: #e2d4f0;
+}
+
+body.dark-mode .errorMsg {
+    color: #ff8fab;
+}
+
+.mode-button {
+    color:black;
+    border-color: #BB71D8;
+    position: absolute;
+    top: 3vh;
+    right: 50vh;
+    border-radius: 12%;
+    background-color:#BB71D8 
+}
+.dark-mode{
+color: #F1E3F3;
+background-color: #BB71D8;
+}
+
 h1, input , select{
     font-family: cursive;
 }
@@ -92,6 +154,11 @@ input:hover{
 }
 .errorMsg{
     text-align: center;
+    
+}
+.copyMsg{
+    text-align: center;
+    
 }
 .hide{
     display:none;

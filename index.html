@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div>
+        <button class="mode-button dark-mode"><i class="fa-regular fa-moon"></i><p>Light Mode</p></button>
+    </div>
     <div class="container">
         <h1> Currency Convertor</h1>
         <form>
@@ -42,14 +45,19 @@
                         </div>
          </form>
     </div>
+    <div class ="copyMsg hide"> Copied!</div>
     <div class="errorMsg hide">
             <p>Enter valid amount!</p>
              </div>
     <div class="exchangeRate">
         <div class ="msg"> 1USD=95INR </div>
-        
+        <div class="copyBtn"><button>Copy <i class="fa-regular fa-copy"></i></button> </div>
         <button class="exchangeRate-btn"> Get Exchange Rate</button>
     </div>
+
+    <br>
+    <div id="historyMsg"><p>Your Past Conversions</p></div>
+    <div id="history"></div>
    <script src="codes.js"></script>
 <script src="app.js"></script>
 </body>
